@@ -11,9 +11,11 @@ frontend:
         - node -v
         - npm run-script build
   artifacts:
-    baseDirectory: build
+    baseDirectory: /dist/
     files:
       - "**/*"
   cache:
     paths:
       - node_modules/**/*
+      – ‘!node_modules/.cache’
+      – ‘!node_modules/ant-design-pro’
