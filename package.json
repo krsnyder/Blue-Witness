@@ -99,6 +99,7 @@
     "babel-loader": "8.1.0",
     "cypress": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
     "jest-canvas-mock": "^2.3.1",
